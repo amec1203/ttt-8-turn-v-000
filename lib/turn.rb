@@ -47,6 +47,6 @@ def turn(board)
     false
       puts "Please enter 1-9:"
   else valid_move?([" ", " ", " ", " ", " ", " ", " ", " ", "X"])
-    true 
+    true
   end
 end
