@@ -5,7 +5,7 @@ def input_to_index(user_input)
   index
 end
 
-def move(board, index, value = "X")
+def move(board, index, value == "X" || value == "O")
   board[index] = value
 end
 
