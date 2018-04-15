@@ -34,8 +34,6 @@ def move(board, index, value = "X")
   board[index] = value
 end
 
-move(board, 0, "X")
-
 puts display_board(board)
 
 def turn(board)
