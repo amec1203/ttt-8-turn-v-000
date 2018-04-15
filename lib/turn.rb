@@ -12,5 +12,3 @@ end
 move(board, 0, "X")
 
 puts display_board(board)
-
-puts "Where would you like to go? 1-9"
