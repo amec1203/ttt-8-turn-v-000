@@ -39,9 +39,9 @@ def turn(board)
   if # the move is valid 
     # display move in board
     puts "Please enter 1-9:"
-  else valid_move? == false
+  else # the move is not valid
     puts "Please enter 1-9:"
-    until valid_move? == true
+    until # the move is valid
     end
   end
 end
