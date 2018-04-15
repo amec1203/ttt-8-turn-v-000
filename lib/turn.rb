@@ -38,7 +38,7 @@ move(board, 0, "X")
 
 puts display_board(board)
 
-def turn(board)
+def turn(gets.strip)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   puts "Please enter 1-9:"
 end
