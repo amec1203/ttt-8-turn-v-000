@@ -42,5 +42,5 @@ def turn(board)
   else valid_move? == false
     puts "Please enter 1-9:"
     until valid_move? == true 
-  end 
+  end
 end
