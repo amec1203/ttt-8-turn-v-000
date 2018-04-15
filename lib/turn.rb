@@ -31,7 +31,7 @@ def valid_move?(board, index)
 end
 
 
-def move(board, index, value == "X" || value == "O")
+def move(board, index, value == "X")
   board[index] = value
 end
 
@@ -40,4 +40,3 @@ move(board, 0, "X")
 puts display_board(board)
 
 def turn
-  
