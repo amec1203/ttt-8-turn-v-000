@@ -41,7 +41,7 @@ puts display_board(board)
 def turn(board)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   puts "Please enter 1-9:"
-  user_input = 1
+  user_input = gets.strip
   input_to_index(user_input)
   if valid_move?([" ", " ", " ", " ", " ", " ", " ", " ", " "], 0)
     false
