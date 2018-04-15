@@ -40,5 +40,5 @@ puts display_board(board)
 
 def turn(board)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  puts "Please enter 1-9"
+  puts "Please enter 1-9:"
 end
