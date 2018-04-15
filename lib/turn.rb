@@ -37,3 +37,6 @@ end
 move(board, 0, "X")
 
 puts display_board(board)
+
+def turn(board)
+  puts "Please enter 1-9"
