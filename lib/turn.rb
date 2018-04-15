@@ -39,7 +39,7 @@ def turn(board)
   if valid_move? == true
     # display move in board
     puts "Please enter 1-9:"
-  else valid_move? == false 
+  else valid_move? == false
     puts "Please enter 1-9:"
   end 
 end
