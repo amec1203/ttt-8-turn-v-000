@@ -38,9 +38,9 @@ move(board, 0, "X")
 
 puts display_board(board)
 
-user_input = gets.strip
 def turn(board)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   puts "Please enter 1-9:"
+  user_input = gets.strip
   input_to_index(user_input)
 end
