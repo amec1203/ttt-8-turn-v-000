@@ -34,8 +34,6 @@ def move(board, index, value = "X")
   board[index] = value
 end
 
-puts display_board(board)
-
 def turn(board)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   puts "Please enter 1-9:"
@@ -44,7 +42,7 @@ def turn(board)
   if valid_move?([" ", " ", " ", " ", " ", " ", " ", " ", " "], 0)
     false
       puts "Please enter 1-9:"
-  else 
+  else
     true
   end
 end
